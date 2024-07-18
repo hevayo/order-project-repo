@@ -10,7 +10,6 @@ public type Order record {
     string orderDate;
     string deliveryDate;
     string trackingNumber;
-    string shippingCompany;
 };
 
 public type Shipper record {
@@ -42,8 +41,8 @@ Order[] data = [
         status: "Shipped",
         orderDate: "2022-01-01",
         deliveryDate: "2022-01-05",
-        trackingNumber: "TRACK12345",
-        shippingCompany: "FastShip"
+        trackingNumber: "TRACK12345"
+
     },
     {
         id: 2,
@@ -56,8 +55,7 @@ Order[] data = [
         status: "Delivered",
         orderDate: "2022-01-02",
         deliveryDate: "2022-01-06",
-        trackingNumber: "TRACK12346",
-        shippingCompany: "QuickShip"
+        trackingNumber: "TRACK12346"
     },
     {
         id: 3,
@@ -70,8 +68,7 @@ Order[] data = [
         status: "Processing",
         orderDate: "2022-01-03",
         deliveryDate: "2022-01-07",
-        trackingNumber: "TRACK12347",
-        shippingCompany: "SpeedyShip"
+        trackingNumber: "TRACK12347"
     },
     {
         id: 4,
@@ -85,8 +82,7 @@ Order[] data = [
         status: "Shipped",
         orderDate: "2022-01-04",
         deliveryDate: "2022-01-08",
-        trackingNumber: "TRACK12348",
-        shippingCompany: "ExpressShip"
+        trackingNumber: "TRACK12348"
     },
     {
         id: 5,
@@ -99,8 +95,7 @@ Order[] data = [
         status: "Delivered",
         orderDate: "2022-01-05",
         deliveryDate: "2022-01-09",
-        trackingNumber: "TRACK12349",
-        shippingCompany: "FastShip"
+        trackingNumber: "TRACK12349"
     },
     {
         id: 6,
@@ -113,8 +108,7 @@ Order[] data = [
         status: "Processing",
         orderDate: "2022-01-06",
         deliveryDate: "2022-01-10",
-        trackingNumber: "TRACK12350",
-        shippingCompany: "QuickShip"
+        trackingNumber: "TRACK12350"
     },
     {
         id: 7,
@@ -127,8 +121,7 @@ Order[] data = [
         status: "Shipped",
         orderDate: "2022-01-07",
         deliveryDate: "2022-01-11",
-        trackingNumber: "TRACK12351",
-        shippingCompany: "SpeedyShip"
+        trackingNumber: "TRACK12351"
     },
     {
         id: 8,
@@ -141,8 +134,7 @@ Order[] data = [
         status: "Delivered",
         orderDate: "2022-01-08",
         deliveryDate: "2022-01-12",
-        trackingNumber: "TRACK12352",
-        shippingCompany: "ExpressShip"
+        trackingNumber: "TRACK12352"
     },
     {
         id: 9,
@@ -155,8 +147,7 @@ Order[] data = [
         status: "Processing",
         orderDate: "2022-01-09",
         deliveryDate: "2022-01-13",
-        trackingNumber: "TRACK12353",
-        shippingCompany: "FastShip"
+        trackingNumber: "TRACK12353"
     },
     {
         id: 10,
@@ -169,8 +160,7 @@ Order[] data = [
         status: "Shipped",
         orderDate: "2022-01-10",
         deliveryDate: "2022-01-14",
-        trackingNumber: "TRACK12354",
-        shippingCompany: "QuickShip"
+        trackingNumber: "TRACK12354"
     }
 ];
 
